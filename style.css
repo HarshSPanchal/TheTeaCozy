@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    color: seashell;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+}
+
+.navbar{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    height: 69px;
+    cursor: pointer;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    opacity: 0.9;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 20px;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.mission {
+    background-image: url("./Img/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#mission {
+    position: relative;
+    text-align: center;
+    padding: 2px;
+    top: 300px;
+    background-color: black;
+    color: seashell;
+}
+
+.tom {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.images1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.images2 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tea {
+    height: 200px;
+    width: 300px;
+}
+
+.location {
+    background-image: url("./Img/img-locations-background.webp");
+    height: 500px;
+    width: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+#loc1 {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.loc {
+    width: 300px;
+    margin: 40px 15px;
+    background-color: black;
+    line-height: 40px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+}
+
